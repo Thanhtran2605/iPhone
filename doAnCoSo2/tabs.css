@@ -1,0 +1,43 @@
+/*!**************CHI TIẾT SẢN PHẨM*****************!*/
+/*!**************SỬ DỤNG TABS CODE TRÊN INTERNET*****************!*/
+/*Link: https://codepen.io/DobsonDev/pen/ByaNZd*/
+/*Name: Simple JQuery Tabs*/
+/*!*Tabs *!*/
+.tabs {
+    width: 100%;
+    background-color: #00e6ac;
+    border-radius: 5px 5px 5px 5px;
+}
+
+ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+}
+
+ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 8px 10px;
+    border-bottom: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+    background-color: #08E;
+}
+
+#tabs-nav li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.tab-content {
+    padding: 10px;
+    border: 5px solid #00e6ac;
+    background-color: #FFF;
+}

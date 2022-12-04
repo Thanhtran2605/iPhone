@@ -1,0 +1,105 @@
+/********ALL ẢNH*******/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/**********LIST PAGE INDEX.PHP CHÍNH************/
+.list-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+/***********Input ALL BÀI*********/
+input[type="text"], input[type="password"], input[type="email"], textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+input[type="submit"], button[type=submit] {
+    background: none repeat scroll 0 0 #ee5057;
+    border: medium none;
+    color: #fff;
+    padding: 11px 20px;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover, button[type=submit]:hover {
+    background-color: #222
+}
+
+/***********SIDE BAR TIN TỨC.PHP***********/
+.single-sidebar {
+    margin-bottom: 50px;
+}
+
+.sidebar-title {
+    color: #fead53;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.thubmnail-recent {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.thubmnail-recent  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.thubmnail-recent h2 a {
+    color: #222;
+}
+
+.product-sidebar-price  ins {
+    color: #ee5057;
+    font-weight: 700;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/***********GIỎ HÀNG TABLE**********/
+table.shop_table {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+table.shop_table th, table.shop_table td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+table.shop_table th {
+    background: none repeat scroll 0 0 #f4f4f4;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/*TABLE MARGIN-BOTTOM*/
+.cart_totals {
+    float: right;
+    margin-bottom: 50px;
+    width: 40%;
+}
+
+
+/***********THONGTINTHANHTOAN.PHP HINH THUC THANH TOAN**********/
+#payment ul.payment_methods {
+    list-style: outside none none;
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+#payment ul.payment_methods li {
+    margin-bottom: 15px;
+}
+
